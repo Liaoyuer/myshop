@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "myshop",
+  "usingComponents": {
+    "goods-list": "/components/goos-list/goods-list"
+  }
+}

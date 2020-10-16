@@ -1,0 +1,235 @@
+@import url(http://at.alicdn.com/t/font_2130229_houq9liwmf.css);
+
+page {
+  font-size: 14px;
+}
+page {
+  font-family: "Microsoft Yahei";
+  line-height: 1.5;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 53%, 0.4);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 53%, 0.1);
+}
+._ul,
+._ol,
+._li {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+._a {
+  text-decoration: none;
+}
+._img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  -- flex弹性布局 -- */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.basis-xs {
+  -webkit-flex-basis: 20%;
+          flex-basis: 20%;
+}
+.basis-sm {
+  -webkit-flex-basis: 40%;
+          flex-basis: 40%;
+}
+.basis-df {
+  -webkit-flex-basis: 50%;
+          flex-basis: 50%;
+}
+.basis-lg {
+  -webkit-flex-basis: 60%;
+          flex-basis: 60%;
+}
+.basis-xl {
+  -webkit-flex-basis: 80%;
+          flex-basis: 80%;
+}
+.flex-width-45 {
+  width: 45%;
+}
+.flex-sub {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.flex-twice {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.flex-treble {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+}
+.flex-direction {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.align-start {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start;
+}
+.align-end {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.align-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.align-stretch {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch;
+}
+.self-start {
+  -webkit-align-self: flex-start;
+          align-self: flex-start;
+}
+.self-center {
+  -webkit-align-self: flex-center;
+          align-self: flex-center;
+}
+.self-end {
+  -webkit-align-self: flex-end;
+          align-self: flex-end;
+}
+.self-stretch {
+  -webkit-align-self: stretch;
+          align-self: stretch;
+}
+.align-stretch {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch;
+}
+.justify-start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.justify-end {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.justify-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.justify-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.justify-around {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.flex-3-start::after {
+  content: "";
+  width: 33.33%;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -- 浮动 --  */
+.cf::after,
+.cf::before {
+  content: " ";
+  display: table;
+}
+.cf::after {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.gray-text{
+	color: #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
