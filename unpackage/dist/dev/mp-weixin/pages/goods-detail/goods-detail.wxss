@@ -51,7 +51,7 @@
   line-height: 70rpx;
 }
 .goods_detial .box3 {
-  padding-bottom: 50rpx;
+  padding-bottom: 120rpx;
 }
 .goods_detial .box3 .tit {
   font-size: 32rpx;

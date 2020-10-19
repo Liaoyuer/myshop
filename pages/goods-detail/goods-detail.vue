@@ -121,7 +121,7 @@
 			line-height: 70rpx;
 		}
 		.box3{
-			padding-bottom: 50rpx;
+			padding-bottom: 120rpx;
 			.tit{
 				font-size: 32rpx;
 				padding-left: 20rpx;
